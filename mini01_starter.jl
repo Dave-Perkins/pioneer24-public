@@ -7,7 +7,7 @@ using StatsBase                     # for sample
 using Combinatorics                 # for combinations
 using Colors                        # to access RGB colors
 
-mutable struct Node
+mutable struct Node  
     key::Int
     degree::Int
     color::Int 
